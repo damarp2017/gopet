@@ -121,8 +121,8 @@
                                             <label class="control-label">Maps <span class="text-danger">*</span>
                                             </label>
                                             <div id="map2" style="height: 500px; z-index: 1;"></div>
-                                            <input type="hidden" id="longitude" class="form-control" name="longitude">
-                                            <input type="hidden" id="latitude" class="form-control" name="latitude">
+                                            <input type="hidden" id="longitude" class="form-control" name="longitude" value="{{ $washingAndSpa->longitude }}">
+                                            <input type="hidden" id="latitude" class="form-control" name="latitude" value="{{ $washingAndSpa->latitude }}">
                                         </div>
                                     </div>
                                 </div>
