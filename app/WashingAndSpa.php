@@ -12,6 +12,6 @@ class WashingAndSpa extends Model
     protected $dates = ['deleted_at'];
 
     protected $fillable = [
-        'image', 'name', 'description', 'street', 'districts', 'city'
+        'image', 'name', 'description', 'street', 'districts', 'city', 'latitude', 'longitude'
     ];
 }

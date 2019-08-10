@@ -21,6 +21,8 @@ class CreatePetShopsTable extends Migration
             $table->string('street');
             $table->string('districts');
             $table->string('city');
+            $table->string('latitude');
+            $table->string('longitude');
             $table->timestamps();
             $table->softDeletes();
         });

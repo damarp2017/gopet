@@ -21,6 +21,8 @@ class CreateWashingAndSpasTable extends Migration
             $table->text('street');
             $table->string('districts');
             $table->string('city');
+            $table->string('latitude');
+            $table->string('longitude');
             $table->timestamps();
             $table->softDeletes();
         });

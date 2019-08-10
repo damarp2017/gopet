@@ -44,9 +44,9 @@
                                     <th>Image</th>
                                     <th>PetShop</th>
                                     <th>Description</th>
-                                    <th>Street</th>
-                                    <th>Districts</th>
-                                    <th>City</th>
+                                    {{--<th>Street</th>--}}
+                                    {{--<th>Districts</th>--}}
+                                    {{--<th>City</th>--}}
                                     <th>Action</th>
                                 </tr>
                                 </thead>
@@ -60,9 +60,9 @@
                                         </td>
                                         <td>{{ $petshop->name }}</td>
                                         <td>{{ $petshop->description }}</td>
-                                        <td>{{ $petshop->street }}</td>
-                                        <td>{{ $petshop->districts }}</td>
-                                        <td>{{ $petshop->city }}</td>
+                                        {{--<td>{{ $petshop->street }}</td>--}}
+                                        {{--<td>{{ $petshop->districts }}</td>--}}
+                                        {{--<td>{{ $petshop->city }}</td>--}}
                                         <td>
                                             <a href="{{ route('admin.petshop.edit', $petshop->id) }}" class="btn btn-xs btn-outline-warning">
                                                 <i class="fa fa-pencil"></i>&ensp;Edit</a>

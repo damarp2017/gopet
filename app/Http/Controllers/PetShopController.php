@@ -67,6 +67,8 @@ class PetShopController extends Controller
         $petshop->street = $request->street;
         $petshop->districts = $request->districts;
         $petshop->city = $request->city;
+        $petshop->latitude = $request->latitude;
+        $petshop->longitude = $request->longitude;
 
         $petshop->save();
 
@@ -129,6 +131,8 @@ class PetShopController extends Controller
         $petshop->street = $request->street;
         $petshop->districts = $request->districts;
         $petshop->city = $request->city;
+        $petshop->latitude = $request->latitude;
+        $petshop->longitude = $request->longitude;
 
         $petshop->update();
 

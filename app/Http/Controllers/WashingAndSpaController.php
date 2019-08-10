@@ -67,6 +67,8 @@ class WashingAndSpaController extends Controller
         $washingAndSpa->street = $request->street;
         $washingAndSpa->districts = $request->districts;
         $washingAndSpa->city = $request->city;
+        $washingAndSpa->latitude = $request->latitude;
+        $washingAndSpa->longitude = $request->longitude;
 
         $washingAndSpa->save();
 
@@ -129,6 +131,8 @@ class WashingAndSpaController extends Controller
         $washingAndSpa->street = $request->street;
         $washingAndSpa->districts = $request->districts;
         $washingAndSpa->city = $request->city;
+        $washingAndSpa->latitude = $request->latitude;
+        $washingAndSpa->longitude = $request->longitude;
 
         $washingAndSpa->update();
 
